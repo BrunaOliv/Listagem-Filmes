@@ -1,7 +1,7 @@
 <mat-toolbar class="app-title">Cadastrar Filme</mat-toolbar>
 <div class="main-div">
   <mat-card class="center width50" >
-    <form [formGroup]="cadastro" (ngSubmit)="salvar()" (ngReset)="reiniciarForm()">
+    <form autocomplete="off" novalidate [formGroup]="cadastro" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
       <mat-card-content>
           <mat-form-field class="full-width">
             <input matInput 
@@ -62,12 +62,13 @@
             <mat-select placeholder="Gênero *" formControlName="genero">
               <mat-option *ngFor="let genero of generoList" [value]="genero">{{genero}}</mat-option>
             </mat-select>
+            <mat-error *ngIf="validacao.hasErrorValidar(f.genero, 'required')">Campo obrigatório</mat-error>
           </mat-form-field>
-          <mat-error *ngIf="validacao.hasErrorValidar(f.genero, 'required')">Campo obrigatório</mat-error>
+          
       </mat-card-content>
       </form>
         <mat-card-actions>
-          <button (click)="salvar()" color="accent" mat-raised-button>Salvar</button>
+          <button (click)="submit()" color="accent" mat-raised-button>Salvar</button>
           <button (click)="reiniciarForm()" color="warn" mat-raised-button>Cancelar</button>
         </mat-card-actions>
   </mat-card>

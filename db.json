@@ -1,19 +1,54 @@
 {
-  "posts": [
+  "filmes": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "urlFoto": "https://www.imdb.com/title/tt0241527/mediaviewer/rm1461359617/?ref_=tt_ov_i",
+      "dtLancamento": "2022-03-10T03:00:00.000Z",
+      "descricao": "Uma criança órfã se enrolla em uma escola de magia, onde ele aprende a verdade sobre si mesmo, sua família e o terrível mal que se esconde no mundo mágico.",
+      "nota": 7.6,
+      "urlIMDb": "",
+      "genero": "Aventura",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "titulo": "Batman Begins",
+      "urlFoto": "https://www.imdb.com/title/tt0372784/mediaviewer/rm2827249920/?ref_=tt_ov_i",
+      "dtLancamento": "2021-10-08T03:00:00.000Z",
+      "descricao": "Depois do treinamento, Batman comença a luta contra o crime e corrupçao en Gotham.",
+      "nota": 8.2,
+      "urlIMDb": "https://www.imdb.com/title/tt0372784/?ref_=nv_sr_srsg_7",
+      "genero": "Ação",
+      "id": 2
+    },
+    {
+      "titulo": "Nasce Uma Estrela",
+      "urlFoto": "https://www.imdb.com/title/tt1517451/mediaviewer/rm3596908288/?ref_=tt_ov_i",
+      "dtLancamento": "2018-02-14T02:00:00.000Z",
+      "descricao": "Um experiente músico descobre a jovem artista desconhecida a quem ajuda a encontrar fama mais acaba se apaixonando por ela. O relacionamento pessoal entre os dois começa a desandar, à medida que Jack luta contra problemas de álcool.",
+      "nota": 7.6,
+      "urlIMDb": "https://www.imdb.com/title/tt1517451/?ref_=fn_al_tt_1",
+      "genero": "Romance",
+      "id": 3
+    },
+    {
+      "titulo": "La La Land: Cantando Estações",
+      "urlFoto": "https://www.imdb.com/title/tt3783958/mediaviewer/rm2569309953/?ref_=tt_ov_i",
+      "dtLancamento": "2016-06-08T03:00:00.000Z",
+      "descricao": "Um pianista é uma frustrada actora se apaixonam enquanto tentam trabalhar por seus futuros.",
+      "nota": 8,
+      "urlIMDb": "",
+      "genero": "Romance",
+      "id": 4
+    },
+    {
+      "titulo": "Top Gun: Maverick",
+      "urlFoto": "https://www.imdb.com/title/tt1745960/mediaviewer/rm1004868097/?ref_=tt_ov_i",
+      "dtLancamento": "2022-07-06T03:00:00.000Z",
+      "descricao": "Após mais de trinta anos de serviço como um dos melhores aviadores da Marinha, Pete Mitchell está onde pertence, ultrapassando os limites como um piloto de teste intrépido e evitando a promoção de posto que o manteria em terra.",
+      "nota": 8.6,
+      "urlIMDb": "",
+      "genero": "Ação",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
