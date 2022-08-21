@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Filme } from '../shared/models/filme';
@@ -16,7 +16,15 @@ constructor(private http: HttpClient) { }
     return this.http.post<Filme>(url, filme);
   }
 
-  listarFilmes(): Observable<Filme[]>{
-    return this.http.get<Filme[]>(url);
+  listarFilmes(texto : string, genero: string): Observable<Filme[]>{
+    let httParams = new HttpParams();
+    httParams = httParams.set('_sort', 'id');
+    httParams = httParams.set('_order', 'desc');
+    if(texto)
+      httParams = httParams.set('q', texto);
+    if(genero)
+      httParams = httParams.set('genero', genero);
+
+    return this.http.get<Filme[]>(url, {params: httParams});
   }
 }

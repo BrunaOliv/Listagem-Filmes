@@ -2,18 +2,30 @@
   display: flex;
   flex-wrap: wrap;
   width: calc(100% - 20px);
-  justify-content: space-between;
+  justify-content: start;
    padding: 10px;
+
   .home-card {
     margin-bottom: 10px;
-
+    margin-left: 15px;
   }
 }
 
+.filtro-listagem{
+  width: calc(100% - 50px);
+}
+
+.mat-card-image{
+  width: 182px;
+  height: 268px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
 @media screen and (min-width: 600px) {
   .home-content {
     .home-card {
-      width: calc(50% - 52px);
+      width: calc(25% - 52px);
     }
   }
 }
