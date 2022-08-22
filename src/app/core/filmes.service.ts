@@ -27,4 +27,8 @@ constructor(private http: HttpClient) { }
 
     return this.http.get<Filme[]>(url, {params: httParams});
   }
+
+  visualizar(id: number): Observable<Filme>{
+    return this.http.get<Filme>(url + id)
+  }
 }

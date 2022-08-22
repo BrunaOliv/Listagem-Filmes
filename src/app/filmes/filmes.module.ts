@@ -7,6 +7,7 @@ import { MaterialModule } from '../shared/material/material.module';
 import { ListagemFilmesComponent } from './listagem-filmes/listagem-filmes.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { AlertaComponent } from '../shared/alerta/alerta.component';
+import { VisualizarFilmesComponent } from './visualizar-Filmes/visualizar-Filmes.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { AlertaComponent } from '../shared/alerta/alerta.component';
   declarations: [
     CadastroFilmesComponent, 
     ListagemFilmesComponent,
-    AlertaComponent]
+    AlertaComponent,
+     VisualizarFilmesComponent]
 })
 export class FilmesModule { }
