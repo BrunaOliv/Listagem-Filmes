@@ -71,14 +71,14 @@
       "genero": "Ação"
     },
     {
-      "id": 8,
       "titulo": "Shazam!",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BYTE0Yjc1NzUtMjFjMC00Y2I3LTg3NGYtNGRlMGJhYThjMTJmXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "dtLancamento": "2019-04-04T03:00:00.000Z",
       "descricao": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
       "nota": 7.1,
       "urlIMDb": "https://www.imdb.com/title/tt0448115/",
-      "genero": "Comédia"
+      "genero": "Comédia",
+      "id": 8
     },
     {
       "id": 9,
@@ -109,16 +109,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
-    },
-    {
-      "titulo": "test2",
-      "urlFoto": "",
-      "dtLancamento": "2022-08-10T03:00:00.000Z",
-      "descricao": "test\ntest2\ntest3",
-      "nota": 9,
-      "urlIMDb": "",
-      "genero": "Romance",
-      "id": 13
     }
   ]
 }
