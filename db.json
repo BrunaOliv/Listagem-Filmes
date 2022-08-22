@@ -111,16 +111,6 @@
       "id": 11
     },
     {
-      "titulo": "test",
-      "urlFoto": "",
-      "dtLancamento": "2022-08-10T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0.3,
-      "urlIMDb": "",
-      "genero": "Romance",
-      "id": 12
-    },
-    {
       "titulo": "test2",
       "urlFoto": "",
       "dtLancamento": "2022-08-10T03:00:00.000Z",

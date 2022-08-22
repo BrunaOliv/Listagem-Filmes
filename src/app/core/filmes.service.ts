@@ -31,4 +31,8 @@ constructor(private http: HttpClient) { }
   visualizar(id: number): Observable<Filme>{
     return this.http.get<Filme>(url + id)
   }
+
+  excluir(id: number): Observable<void>{
+    return this.http.delete<void>(url + id);
+  }
 }
